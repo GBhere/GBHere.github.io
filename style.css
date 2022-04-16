@@ -12,11 +12,14 @@ li {
     list-style: none;
 }
 
+
+/* 
 html {
     scroll-behavior: smooth;
-}
+} */
 
 .navbar {
+    flex-wrap: wrap;
     background-color: rgb(3, 3, 14);
     display: flex;
     position: fixed;
@@ -137,7 +140,6 @@ body {
     /* display: none ; */
     background-color: black;
     overflow: hidden;
-    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -269,10 +271,12 @@ h2 {
 }
 
 #mail {
+    font-size: 25px;
     color: rgb(142, 142, 142);
 }
 
 #mail:hover {
+    font-size: 25px;
     color: rgb(205, 205, 205);
 }
 
