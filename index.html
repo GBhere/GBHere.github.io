@@ -1,41 +1,80 @@
 <!DOCTYPE html>
-<!-- 
-    Hi everyone, following code is preset template,
-    where you can fill your details and your new webpage is ready to be published.
-    Details required are following:
-    $full_name: Student's Full Name. For eg: Ayush Bansal.
-    $github_username: Student's Github Username. For eg: ayu023ban.
-    $profile_pic_url: Student's Profile Pic URl can be taken from any public website such as: Github, Facebook.
-    $studying_year:Student's Year in following format:
-        1st Year:       Freshmen
-        2nd Year:       Sophomore
-        Prefinal Year:  Junior
-        Final Year:     Senior
-    
- -->
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="profile-picture">
-        <img src="https://avatars.githubusercontent.com/u/85382679?v=4" />
-      </div>
-      <div id="introduction">
-        <span>
-          <div id="hello">Hello, I am</div>
-          <div id="name">Gyanendra Kumar Banjare</div>
-          <div id="whoami">A Freshman at IIT Roorkee</div>
-        </span>
-        <span>
-          <div id="github-handle">
-            <a href="https://github.com/GBhere" target="__blank">@GBhere</a>
-          </div>
-        </span>
-      </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <title>Gyanendra Banjare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Exo:wght@200&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            Gyanendra
+        </div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">☰</label>
+            <div class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div id="home">
+        <!-- <img src="./bg1.jpg" alt="bg"> -->
+        <p id="quote">Doing stuff I find interesting.</p>
+        <div id="arrow">
+            <img src="./up_arrow.png" alt="">
+        </div>
     </div>
-  </body>
+    <center>
+        <div id="container">
+            <div id="about">
+                <h2>ABOUT</h2>
+                <p>I am Gyanendra Banjare first year Computer Science and Engineering undergraduate student at IIT Roorkee. I am developer at
+                    <a href="https://sdslabs.co/">SDSLabs</a>, student run technical group having exceptionally talented people and remarkable alumni. I love technology and believe that programming is a superpower. My current interests are in CTFs and
+                    Development. I love to sleep and firmly believe that my spirit animal is a Panda.
+                </p>
+                <br><br>
+            </div>
+            <div id="projects">
+                <h2>PROJECTS</h2>
+                <ul>
+                    <li>
+                        <p><a href="https://github.com/sdswoc/Euterpe">EUTERPE:</a> A very naive attempt to build an english text synthesizer, written in python3 and deployed on
+                            <a href="https://euterpe-woc.herokuapp.com/">Heroku</a>.</p>
+                    </li>
+                    <li>
+                        <p><a href="https://github.com/GBhere/gbDB">gbDB: </a> A python3 project trying to mimic the basic commands of SQL inspired by mySQL.</p>
+                    </li>
+                </ul>
+                <br><br><br>
+
+            </div>
+            <div id="contact">
+                <h2>CONTACT ME</h2>
+                <p>Email:
+                    <a href="mailto:gyanendrabanjare8@gmail.com" target="_blank" id="mail">gyanendrabanjare8@gmail.com</a></p>
+                <div id="social_media">
+                    <a href="https://github.com/GBhere" alt="Github" target="_blank"><img src="./github.png" alt="github"></a>
+                    <a href="https://www.facebook.com/people/Gyanendra-Banjare/100016473726061/" alt="Facebook" target="_blank"><img src="./fb.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/gyanendrabanjare8/" alt="Instagram" target="_blank"><img src="./insta.png" alt="instagram"></a>
+
+                </div>
+                <br><br></div>
+        </div>
+
+    </center>
+</body>
+
+</html>
+
 </html>
