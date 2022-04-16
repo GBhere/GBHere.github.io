@@ -269,16 +269,6 @@ h2 {
     opacity: .7;
 }
 
-#mail {
-    font-size: 25px;
-    color: rgb(142, 142, 142);
-}
-
-#mail:hover {
-    font-size: 25px;
-    color: rgb(205, 205, 205);
-}
-
 #social_media>a>img:hover {
     opacity: 1;
 }
