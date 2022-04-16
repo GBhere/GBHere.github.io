@@ -12,11 +12,9 @@ li {
     list-style: none;
 }
 
-
-/* 
 html {
     scroll-behavior: smooth;
-} */
+}
 
 .navbar {
     flex-wrap: wrap;
@@ -177,41 +175,24 @@ body {
     background: none;
     width: 1.2vw;
     height: 1.2vw;
-    animation: a 2.5s infinite, q .7s .8s ease both;
+    animation: a 2s infinite;
 }
 
 @keyframes a {
     0% {
-        opacity: .85;
-    }
-    25% {
-        opacity: .7;
+        opacity: .95;
     }
     50% {
-        opacity: .5;
-    }
-    75% {
-        opacity: .7;
+        opacity: .4;
     }
     100% {
-        opacity: .85;
+        opacity: .95;
     }
 }
 
 #quote {
     font-size: 3vw;
-    animation: q .7s .8s ease both;
-}
-
-@keyframes q {
-    0% {
-        top: 60%;
-        opacity: 0;
-    }
-    100% {
-        top: 20%;
-        opacity: 1;
-    }
+    animation: a 2s infinite;
 }
 
 #container {
